@@ -835,675 +835,2798 @@ f,c,d,a[h+15],14,-660478335),d=hx_gg(d,e,f,c,a[h+4],20,-405537848),c=hx_gg(c,d,e
 f=hx_ii(f,c,d,e,a[h+7],10,1126891415),e=hx_ii(e,f,c,d,a[h+14],15,-1416354905),d=hx_ii(d,e,f,c,a[h+5],21,-57434055),c=hx_ii(c,d,e,f,a[h+12],6,1700485571),f=hx_ii(f,c,d,e,a[h+3],10,-1894986606),e=hx_ii(e,f,c,d,a[h+10],15,-1051523),d=hx_ii(d,e,f,c,a[h+1],21,-2054922799),c=hx_ii(c,d,e,f,a[h+8],6,1873313359),f=hx_ii(f,c,d,e,a[h+15],10,-30611744),e=hx_ii(e,f,c,d,a[h+6],15,-1560198380),d=hx_ii(d,e,f,c,a[h+13],21,1309151649),c=hx_ii(c,d,e,f,a[h+4],6,-145523070),f=hx_ii(f,c,d,e,a[h+11],10,-1120210379),e=hx_ii(e,
 f,c,d,a[h+2],15,718787259),d=hx_ii(d,e,f,c,a[h+9],21,-343485551),c=safe_add(c,j),d=safe_add(d,k),e=safe_add(e,l),f=safe_add(f,r);return[c,d,e,f]}function hx_cmn(a,b,c,d,e,f){return safe_add(bit_rol(safe_add(safe_add(b,a),safe_add(d,f)),e),c)}function hx_ff(a,b,c,d,e,f,h){return hx_cmn(b&c|~b&d,a,b,e,f,h)}function hx_gg(a,b,c,d,e,f,h){return hx_cmn(b&d|c&~d,a,b,e,f,h)}function hx_hh(a,b,c,d,e,f,h){return hx_cmn(b^c^d,a,b,e,f,h)}function hx_ii(a,b,c,d,e,f,h){return hx_cmn(c^(b|~d),a,b,e,f,h)}
 function safe_add(a,b){var c=(a&65535)+(b&65535);return(a>>16)+(b>>16)+(c>>16)<<16|c&65535}function bit_rol(a,b){return a<<b|a>>>32-b}function str2binl(a){for(var b=[],c=(1<<chrsz)-1,d=0;d<a.length*chrsz;d+=chrsz)b[d>>5]|=(a.charCodeAt(d/chrsz)&c)<<d%32;return b}function binl2hex(a){for(var b=hexcase?"0123456789ABCDEF":"0123456789abcdef",c="",d=0;d<4*a.length;d++)c+=b.charAt(a[d>>2]>>8*(d%4)+4&15)+b.charAt(a[d>>2]>>8*(d%4)&15);return c};
-function orgt(s){ return binl2hex(core_hx(str2binl(s), s.length * chrsz));}var bookConfig={BookmarkButtonVisible : "Show",searchColor : "#00ffff", searchAlpha : 0.3,SearchButtonVisible: "Hide",appLogoIcon:"",appLogoLinkURL:"",bookTitle:"eng-rv_book",bookDescription:"",ShareButtonVisible:"Show",ThumbnailsButtonVisible:"Show",ZoomButtonVisible:"Show",BookMarkButtonVisible:"Show",SearchButtonVisible:"Hide",enableAutoPlay:"No",autoPlayDuration:3,autoPlayLoopCount:0,bgBeginColor:"#FF9900",bgEndColor:"#e8ac4d",bgMRotation:90,backGroundImgURL:"../files/backgroundpic/backgroundimg.jpg",pageBackgroundColor: "#30373A",flipshortcutbutton: "Show",OriginPageIndex: 1, HardPageEnable: "No",RightToLeft:"No",topMargin: 10,bottomMargin: 10,leftMargin: 10,rightMargin: 10,LinkDownColor: "#808080",LinkAlpha: 0.1,OpenWindow: "Blank",googleAnalyticsID:"",totalPageCount:904,largePageWidth:750,largePageHeight:1125,normalPath:"../files/mobile/",largePath:"../files/mobile/",thumbPath:"../files/mobile/"}
+function orgt(s){ return binl2hex(core_hx(str2binl(s), s.length * chrsz));}var bookConfig={BookmarkButtonVisible : "Show",searchColor : "#00ffff", searchAlpha : 0.3,SearchButtonVisible: "Hide",appLogoIcon:"",appLogoLinkURL:"",bookTitle:"Bible. Holy Bible. New American Bible (NAB)_",bookDescription:"",ShareButtonVisible:"Show",ThumbnailsButtonVisible:"Show",ZoomButtonVisible:"Show",BookMarkButtonVisible:"Show",SearchButtonVisible:"Hide",enableAutoPlay:"No",autoPlayDuration:3,autoPlayLoopCount:0,bgBeginColor:"#FF9900",bgEndColor:"#e8ac4d",bgMRotation:90,backGroundImgURL:"../files/backgroundpic/backgroundimg.jpg",pageBackgroundColor: "#30373A",flipshortcutbutton: "Show",OriginPageIndex: 1, HardPageEnable: "No",RightToLeft:"No",topMargin: 10,bottomMargin: 10,leftMargin: 10,rightMargin: 10,LinkDownColor: "#808080",LinkAlpha: 0.1,OpenWindow: "Blank",googleAnalyticsID:"",totalPageCount:1998,largePageWidth:750,largePageHeight:1000,normalPath:"../files/mobile/",largePath:"../files/mobile/",thumbPath:"../files/mobile/"}
 var pageEditor=[
 [
 ],
 [
 {annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.052493,
-y:0.098448,
-width:0.093157,
-height:0.015315},
+location: {x:0.057292,
+y:0.064757,
+width:0.095336,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"3"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.084722,
+width:0.087625,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"89"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.104670,
+width:0.100477,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"158"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.124635,
+width:0.104319,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"209"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.144601,
+width:0.149373,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"280"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.350185,
+y:0.064757,
+width:0.113356,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1538"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.343727,
+y:0.084722,
+width:0.119815,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1542"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.379769,
+y:0.104670,
+width:0.083773,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1546"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.350185,
+y:0.124635,
+width:0.113356,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1549"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.373356,
+y:0.144601,
+width:0.090185,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1562"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.165434,
+width:0.085060,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"339"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.185399,
+width:0.085060,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"378"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.205365,
+width:0.059312,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"417"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.225330,
+width:0.126213,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"423"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.245295,
+width:0.133956,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"475"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.265260,
+width:0.105632,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"518"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.285226,
+width:0.113375,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"567"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.305191,
+width:0.157081,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"614"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.325139,
+width:0.164824,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"664"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.345104,
+width:0.058014,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"719"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.365069,
+width:0.115928,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"736"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.385035,
+width:0.061877,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"761"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.405000,
+width:0.072188,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"781"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.424965,
+width:0.077317,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"804"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.444931,
+width:0.166102,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"816"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.464896,
+width:0.173845,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"868"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.484861,
+width:0.047738,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"905"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.504826,
+width:0.086303,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"950"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.524774,
+width:0.103044,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1059"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.544740,
+width:0.139065,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1098"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.564705,
+width:0.188009,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1110"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.584670,
+width:0.217546,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1117"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.604635,
+width:0.076030,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1142"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.624601,
+width:0.072188,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1206"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.644566,
+width:0.105620,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1282"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.664531,
+width:0.149396,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1366"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.684497,
+width:0.083762,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1374"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.704462,
+width:0.085037,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1386"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.724410,
+width:0.076042,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1464"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.744375,
+width:0.077329,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1496"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.764340,
+width:0.052882,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1508"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.784306,
+width:0.069588,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1513"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.804271,
+width:0.097935,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1522"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.824236,
+width:0.073486,
+height:0.019964},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1524"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.844200,
+width:0.072164,
+height:0.019964},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1527"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.057292,
+y:0.864163,
+width:0.085037,
+height:0.019964},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1535"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.063889,
+width:0.097894,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1566"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.083854,
+width:0.061852,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1621"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.103802,
+width:0.060602,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1656"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.123767,
+width:0.060602,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1716"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.143733,
+width:0.055440,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1761"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.163698,
+width:0.096620,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1818"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.183663,
+width:0.164815,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1841"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.203628,
+width:0.172546,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1864"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.223594,
+width:0.108218,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1879"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.243559,
+width:0.118519,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1887"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.263524,
+width:0.122361,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1895"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.283490,
+width:0.123634,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1901"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.303455,
+width:0.196991,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1906"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.323403,
+width:0.204745,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1911"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.343368,
+width:0.130046,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1914"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.363333,
+width:0.137778,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1920"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.383299,
+width:0.060579,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1925"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.403264,
+width:0.106921,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1928"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.423229,
+width:0.101759,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1930"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.443194,
+width:0.078588,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1947"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.463160,
+width:0.103056,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1953"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.483125,
+width:0.110787,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1959"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.503090,
+width:0.097917,
+height:0.019948},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1963"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.523038,
+width:0.105671,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1969"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.543003,
+width:0.100509,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1970"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.562969,
+width:0.060602,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1971"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.515625,
+y:0.582934,
+width:0.119792,
+height:0.019965},
+action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
+pageIndex:"1973"}],
+hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
+location: {x:0.734560,
+y:0.924054,
+width:0.189491,
+height:0.015970},
 action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL",
-url:"http://en.wikipedia.org/wiki/Public_domain",
+url:"http://www.biiible.com/",
 linkTarget: "_blank"}],
 hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.122053,
-y:0.117032,
-width:0.047292,
-height:0.015315},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionOpenURL",
-url:"http://www.ethnologue.org/language/eng",
-linkTarget: "_blank"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
 ],
 [
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.235140,
-width:0.057231,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"6"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.253761,
-width:0.053833,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"38"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.272383,
-width:0.067715,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"65"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.291003,
-width:0.068887,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"85"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.309625,
-width:0.103787,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"113"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.328245,
-width:0.050456,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"137"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.346867,
-width:0.049646,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"153"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.365488,
-width:0.036655,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"169"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.384110,
-width:0.068086,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"172"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.402730,
-width:0.068086,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"193"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.421352,
-width:0.054690,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"210"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.439972,
-width:0.054690,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"230"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.458594,
-width:0.092706,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"250"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.477215,
-width:0.092706,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"268"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.495836,
-width:0.032574,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"291"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.514457,
-width:0.077662,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"298"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.533079,
-width:0.048637,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"308"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.551699,
-width:0.024278,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"313"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.570321,
-width:0.052185,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"329"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.588941,
-width:0.066562,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"384"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.607563,
-width:0.088238,
-height:0.018015},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"398"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.626184,
-width:0.104750,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"403"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.644806,
-width:0.044736,
-height:0.018015},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"406"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.663426,
-width:0.068167,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"438"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.682046,
-width:0.103525,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"474"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.700668,
-width:0.053023,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"477"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.719289,
-width:0.048104,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"510"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.737910,
-width:0.045456,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"520"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.756531,
-width:0.028431,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"525"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.775153,
-width:0.042204,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"527"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.793773,
-width:0.062148,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"531"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.812395,
-width:0.043736,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"532"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.831015,
-width:0.046583,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"534"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.849637,
-width:0.055213,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"537"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.868258,
-width:0.075139,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"539"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.886880,
-width:0.080419,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"541"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.905500,
-width:0.051998,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"543"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.924122,
-width:0.075553,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"544"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.942742,
-width:0.059771,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"550"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
 ],
 [
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.064531,
-width:0.039440,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"552"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.132086,
-width:0.046530,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"559"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.199640,
-width:0.145495,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"570"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.267196,
-width:0.185979,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"573"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.334750,
-width:0.102553,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"594"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.402306,
-width:0.053655,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"651"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.469860,
-width:0.170269,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"656"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.537415,
-width:0.062979,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"658"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.604969,
-width:0.144137,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"660"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.672523,
-width:0.091030,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"661"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.740079,
-width:0.096525,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"684"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.807633,
-width:0.061313,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"703"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.875188,
-width:0.144829,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"715"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.140127,
-y:0.942742,
-width:0.061313,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"716"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
 ],
 [
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.064531,
-width:0.067771,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"738"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.078369,
-width:0.039646,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"758"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.092205,
-width:0.035708,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"771"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.106042,
-width:0.035269,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"793"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.119880,
-width:0.032521,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"809"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.133716,
-width:0.060222,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"830"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.147554,
-width:0.101678,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"839"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.161390,
-width:0.101678,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"847"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.175227,
-width:0.069815,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"853"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.189065,
-width:0.075528,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"856"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.202901,
-width:0.085148,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"859"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.216738,
-width:0.078472,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"861"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.230576,
-width:0.119532,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"863"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.244412,
-width:0.119532,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"865"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.258250,
-width:0.077609,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"866"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.272086,
-width:0.077609,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"869"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.285923,
-width:0.038412,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"871"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.299761,
-width:0.072625,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"872"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.313597,
-width:0.065653,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"873"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.327434,
-width:0.044565,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"880"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.341272,
-width:0.053069,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"883"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.355108,
-width:0.053069,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"886"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.368946,
-width:0.047988,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"888"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.382782,
-width:0.047988,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"891"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.396619,
-width:0.047988,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"892"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.410457,
-width:0.033521,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"893"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
-{annotype: "com.mobiano.flipbook.pageeditor.TAnnoLink",alpha: 0, overColor: "#0000FF",downColor: "#0000FF",outColor: "11184810", overAlpha: 0.3,downAlpha: 0.3,outAlpha: 0, 
-location: {x:0.238553,
-y:0.424293,
-width:0.080329,
-height:0.018017},
-action:[{triggerEventType:"mouseDown", actionType:"com.mobiano.flipbook.pageeditor.TAnnoActionGotoPage",
-pageIndex:"894"}],
-hint: {hintShapeColor:"8388736", hintShapeAlpha:0.2,text:""}},
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
+],
+[
 ],
 [
 ],
